@@ -7,28 +7,8 @@
 
 A comprehensive **JMeter Performance Testing Suite** for the simulated digital wallet **Dmoney API**. This project evaluates system stability, throughput, and latencies under concurrent thread loads, mimicking real-world customer and agent transaction flows.
 
----
 
-## 📁 Project Structure
 
-The project directory is structured cleanly for simple integration, portability, and version control:
-
-```text
-├── dmoney.jmx              # Core JMeter Test Plan containing Thread Groups
-├── Resources/              # Data-driven CSV datasets
-│   ├── deposit.csv         # Agent credentials and deposit configurations
-│   ├── sendMoney.csv       # Customer credentials and transfer datasets
-│   └── payment.csv         # Customer payment datasets for merchants
-├── screenshots/            # Pre-rendered JMeter reports & dashboards
-│   ├── Aggregate Report.JPG
-│   ├── Summary Report.JPG
-│   └── HTML Reports.JPG
-├── Reports/                # Dynamically generated HTML reports (Git ignored)
-├── .gitignore              # Standard ignore configurations (ignoring logs & reports)
-└── README.md               # Dynamic project documentation (This file)
-```
-
----
 
 ## ⚙️ Performance Test Scenarios
 
