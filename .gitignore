@@ -1,0 +1,9 @@
+# JMeter log files
+jmeter.log
+
+# Generated HTML reports directory
+Reports/
+
+# OS specific files
+.DS_Store
+Thumbs.db
