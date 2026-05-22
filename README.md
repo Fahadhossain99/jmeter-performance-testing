@@ -9,11 +9,6 @@ A comprehensive **JMeter Performance Testing Suite** for the simulated digital w
 
 
 
-
-## ⚙️ Performance Test Scenarios
-
-The suite simulates high-traffic transaction flows using dynamic CSV datasets, random transaction variables, and automated verification flows.
-
 ### 👥 Thread Groups & Load Profile
 
 All scenarios are executed concurrently with the following thread configuration:
